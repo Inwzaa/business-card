@@ -1,7 +1,11 @@
 body {
   background-color: rosybrown;
   font-family: Arial, sans-serif;
-  padding: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  min-height: 100vh;      
+  margin: 0;              
 }
 
 p {
@@ -19,15 +23,15 @@ a {
   width: 300px;
   background-color: seashell;
   padding: 20px;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+  border-radius: 10px; 
 }
 
 .profile-image {
-  max-width: 100%;
+  max-width: 150px; 
+  border-radius: 50%; 
+  border: 3px solid cadetblue; 
 }
 
 .full-name {
@@ -51,12 +55,15 @@ address {
   color: darkslategray;
 }
 
-.social-media a {
-  display: inline-block;
-  margin: -10px 10px 0;
-}
-
 h2 {
   font-size: 20px;
   color: darkslategray;
+  margin-bottom: 10px; 
+  margin-top: 0;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px; 
+  font-size: 24px;
 }
